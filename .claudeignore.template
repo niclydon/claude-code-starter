@@ -1,0 +1,50 @@
+# .claudeignore — Copy to project root and customize
+#
+# Prevents Claude from loading these files into context.
+# Remove entries if your project legitimately needs Claude to read them
+# (e.g., remove *.sql if Claude needs to read migration files).
+
+# ── Secrets & credentials ─────────────────────────────────────────────────────
+.env
+.env.local
+.env.*.local
+.env.development
+.env.production
+*.pem
+*.key
+*.cert
+*.crt
+*.p12
+*.pfx
+*.jks
+*.ppk
+*.p8
+*.der
+
+# ── Databases ─────────────────────────────────────────────────────────────────
+*.db
+*.sqlite
+*.sqlite3
+*.db-shm
+*.db-wal
+*.db-journal
+
+# ── Data exports (remove if Claude needs to read these) ───────────────────────
+# *.sql
+# *.csv
+# *.xlsx
+# *.xls
+
+# ── Dependencies ──────────────────────────────────────────────────────────────
+node_modules/
+
+# ── Build output ──────────────────────────────────────────────────────────────
+dist/
+build/
+.next/
+.vite/
+
+# ── OS & editor ───────────────────────────────────────────────────────────────
+.DS_Store
+.idea/
+.vscode/

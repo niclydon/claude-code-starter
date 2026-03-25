@@ -92,4 +92,4 @@ More on Claude Code memory: [code.claude.com/docs](https://code.claude.com/docs)
 
 ## Credits
 
-Built by [Nicholas Lydon](https://github.com/niclydon). Inspired by community best practices and [Anthropic's official guidance](https://code.claude.com/docs/en/best-practices).
+Built by [@niclydon](https://github.com/niclydon). Inspired by community best practices and [Anthropic's official guidance](https://code.claude.com/docs/en/best-practices).

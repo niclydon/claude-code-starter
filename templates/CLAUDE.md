@@ -11,6 +11,7 @@ __YOUR_NAME__ — __YOUR_ROLE__
 @LOGGING.md
 @GIT.md
 @SECURITY.md
+@MODELS.md
 
 ## Working With Me
 

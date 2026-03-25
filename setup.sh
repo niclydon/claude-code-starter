@@ -98,6 +98,7 @@ install_file "$SCRIPT_DIR/templates/SECURITY.md"  "$TARGET_DIR/SECURITY.md"
 
 # Universal files (no customization needed)
 copy_file "$SCRIPT_DIR/LOGGING.md"                "$TARGET_DIR/LOGGING.md"
+copy_file "$SCRIPT_DIR/templates/MODELS.md"       "$TARGET_DIR/MODELS.md"
 copy_file "$SCRIPT_DIR/.claudeignore.template"    "$TARGET_DIR/.claudeignore.template"
 
 echo ""
